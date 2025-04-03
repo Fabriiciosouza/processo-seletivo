@@ -1,42 +1,35 @@
 # Teste Prático - Estágio de Programação Web
 
-## 📋 Descrição do Teste
-Você deve criar uma **página web simples** que contenha:
-- Um formulário de cadastro com os seguintes campos:
-  - **Nome**
-  - **E-mail**
-  - **Senha**
-- Um botão de submit que exiba os dados preenchidos em um alerta (popup) ao clicar.
+## Funcionalidade
 
-- Exemplo:
-  
-![Screenshot 2025-04-01 at 16 24 49](https://github.com/user-attachments/assets/6ba08daa-a5be-459f-abc2-a28a021d3ac8)
+O formulário coleta as seguintes informações do usuário:
+- **Nome**
+- **E-mail**
+- **Senha**
 
+Ao preencher os campos e clicar no botão **Cadastrar**, as informações são validadas. Se as senhas não coincidirem, um alerta informará o erro. Caso contrário, um alerta será exibido com os dados preenchidos.
 
----
+## Como Visualizar o Projeto
 
 ## 🚩 Requisitos
-- A página deve ser **responsiva** (funcionar bem em celular e desktop).
-- Os dados do formulário devem ser exibidos em um `alert()`
 
----
+1. Um navegador web (Google Chrome, Firefox, etc.).
+2. Nenhum servidor ou configuração adicional é necessário.
 
-## 🔥 Critérios de Avaliação
+## Passos
 
-1. ✅ **Funcionalidade básica funcionando**.
-2. ✅ **Organização do código**.
-3. ✅ **Estilo simples e responsivo.**
-4. ✅ **README.md bem estruturado explicando como visualizar o projeto.**
+1. **Clone ou baixe o repositório:**
+   Se você estiver usando o Git, pode clonar o repositório:
 
----
+   ```bash
+   git clone https://github.com/Fabriiciosouza/processo-seletivo.git
 
-## 📌 Instruções para Entrega
+  Ou, se você estiver baixando manualmente, basta baixar a pasta com os arquivos do projeto.
 
-1. Faça um **fork** deste repositório no seu GitHub.
-2. Desenvolva a aplicação conforme os requisitos descritos acima.
-3. Certifique-se de que seu código esteja devidamente organizado.
-4. Inclua instruções no seu README.md explicando como abrir o projeto.
-5. Envie o link do seu repositório GitHub para avaliação.
+2. Abra o arquivo index.html em seu navegador: Navegue até o diretório onde o projeto está salvo e abra o arquivo index.html no navegador de sua escolha.
 
----
-Boa sorte e bom trabalho! 🚀
+  Exemplo:
+
+  No Google Chrome, clique com o botão direito em index.html e selecione "Abrir com" > "Google Chrome" ou simplesmente arraste o arquivo para a janela do navegador.
+
+  Interaja com o formulário: Preencha os campos com suas informações e clique no botão Cadastrar. O alerta exibirá os dados preenchidos ou, caso as senhas não coincidam, exibirá uma mensagem de erro.
